@@ -27,7 +27,8 @@
     <main class="container mt-5">
         <h2>Meus projetos</h2>
         <div class="row">
-            <div class="col-md-6">
+            <!-- Projeto Pong -->
+            <div class="col-md-4">
                 <div class="card">
                     <img src="PONG.gif" class="card-img-top" alt="Imagem do projeto Pong">
                     <div class="card-body">
@@ -37,7 +38,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            
+            <!-- Projeto Site Pessoal -->
+            <div class="col-md-4">
                 <div class="card">
                     <img src="img/meusite.png" class="card-img-top" alt="Imagem do projeto site pessoal">
                     <div class="card-body">
@@ -47,9 +50,22 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Projeto Animação em Java -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/animacaojava.png" class="card-img-top" alt="Imagem do projeto de animação em Java">
+                    <div class="card-body">
+                        <h5 class="card-title">Animação em Java</h5>
+                        <p class="card-text">Projeto de animação desenvolvido em Java, utilizando conceitos de manipulação de gráficos para criar uma experiência visual interativa.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
+    <!-- Modal Pong -->
     <div class="modal" id="modal1" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -68,6 +84,7 @@
         </div>
     </div>
 
+    <!-- Modal Site Pessoal -->
     <div class="modal" id="modal2" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -81,6 +98,25 @@
                 </div>
                 <div class="modal-footer">
                     <a href="https://github.com/LeonardoEmmanuel">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Animação em Java -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Animação em Java</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Projeto de animação interativa em Java, utilizando gráficos para criar uma experiência visual envolvente.</p>
+                    <img src="img/animacaojava.png" class="img-fluid w-100" alt="Imagem do projeto de animação em Java">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/LeonardoEmmanuel/animacaojava">Ver código do projeto</a>
                 </div>
             </div>
         </div>
